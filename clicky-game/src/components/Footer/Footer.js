@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
       <footer class="footer">
         <div class="bottom">
-            NHL Clicks!
+        <a href="https://github.com/drewpepin1995/clicky-game">Github Repo</a> | <a href="https://drewpepin1995.github.io/newPortfolio/">Portfolio</a>
         </div>
       </footer>
     );

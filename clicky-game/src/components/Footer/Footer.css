@@ -28,3 +28,9 @@
     margin-right: 1px;
     margin-bottom: 17px;
 }
+
+a {
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
