@@ -1,20 +1,22 @@
 .jumbotron {
-	background-image: url("https://assets.foxdcg.com/dpp-uploaded/images/the-simpsons/seriesDetail2.jpg?fit=inside%7C1920:1080");
+	background-image: url("https://media0.giphy.com/media/UPvKrpDpZwCCiHtOSK/source.gif");
     background-blend-mode: overlay;
     background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	margin-bottom: 0px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
 .jumbotron h1 {
-	font-family: 'Chicle', sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 65px;
 	text-transform: uppercase;
 	font-weight: 900;
-	color: rgb(21, 92, 173);
+    color: black;
+    font-style: italic;
+    
 }
 
 .jumbotron p {
@@ -22,5 +24,5 @@
 	font-size: 30px;
 	font-weight: 500;
     text-transform: uppercase;
-    color: rgb(21, 92, 173);
-}
+    color: black;
+};
