@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import CharacterCard from "../CharacterCard";
-import images from "../../characters.json";
+import TeamCard from "../TeamCard/TeamCard.js";
+import images from "./teams.json";
 import "./ScoreBoard.css";
 
 class ScoreBoard extends Component {
@@ -57,7 +57,7 @@ class ScoreBoard extends Component {
         <div className="container">
           <div className="row">
             {this.state.images.map(image => (
-              <CharacterCard
+              <TeamCard
                 key={image.id}
                 id={image.id}
                 name={image.name}
