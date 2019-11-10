@@ -7,9 +7,11 @@
 
 .allCards img {
     margin: 5px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     max-height: 200px;
     max-width: 200px;
     background-color: white;
+    border-radius: 50%;
+    
 }
